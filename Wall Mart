@@ -1,0 +1,14 @@
+---first code---
+while true do
+
+game:GetService("ReplicatedStorage").Remotes.GS_SelectDifficultyEvent:FireServer("d7f2fc0b-59cb-429c-86e1-bbd6f7248ef2",2,{})
+
+
+game:GetService("ReplicatedStorage").Remotes.GS_GetCanJoinPlateFunction:InvokeServer("d7f2fc0b-59cb-429c-86e1-bbd6f7248ef2",2)
+
+wait (25)
+end
+
+---second code use For Complete the game teleport---
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14209.8379, 1017.79852, 7060.16113, 0.208892584, -7.78633336e-09, -0.977938592, -3.41264759e-08, 1, -1.52515724e-08, 0.977938592, 3.65595376e-08, 0.208892584)
